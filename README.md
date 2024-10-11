@@ -36,8 +36,8 @@ Exemplo de POC:
 Chamadas assíncronas em JavaScript permitem que operações sejam executadas de forma concorrente, sem bloquear o fluxo principal da aplicação. Isso é útil em operações que podem demorar para ser concluídas, como requisições de rede ou consultas de banco de dados. O JavaScript permite que o restante do código seja executado enquanto a operação assíncrona está em andamento.
 
 ### Vantagens do Código Assíncrono:
-- * Performance Melhorada:** O código assíncrono permite que outras operações sejam realizadas enquanto a resposta é aguardada, melhorando o desempenho.
-- * UX Aprimorada:** A interface do usuário não trava durante operações demoradas, proporcionando uma experiência mais fluida.
+- Performance Melhorada:** O código assíncrono permite que outras operações sejam realizadas enquanto a resposta é aguardada, melhorando o desempenho.
+- UX Aprimorada:** A interface do usuário não trava durante operações demoradas, proporcionando uma experiência mais fluida.
 
 ### Desafios do Código Assíncrono:
 - * Gerenciamento de Erros:** Pode ser difícil de debugar e tratar erros, especialmente em fluxos complexos.
@@ -45,9 +45,9 @@ Chamadas assíncronas em JavaScript permitem que operações sejam executadas de
 ### Promises
 
 O conceito de `Promises` é uma das principais formas de lidar com operações assíncronas. Uma `Promise` pode estar em três estados:
-- * Pending (Pendente):** A operação ainda não foi concluída.
-- * Fulfilled (Concluída):** A operação foi concluída com sucesso.
-- * Rejected (Rejeitada):** Ocorreu um erro durante a operação.
+- Pending (Pendente):** A operação ainda não foi concluída.
+- Fulfilled (Concluída):** A operação foi concluída com sucesso.
+- Rejected (Rejeitada):** Ocorreu um erro durante a operação.
 
 Exemplo de código usando `Promise`:
 
@@ -70,8 +70,8 @@ promessa
 ### Async/Await:
 A partir do ECMAScript 2017 (ES8), foi introduzida uma forma ainda mais fácil e legível de lidar com código assíncrono através do uso das palavras-chave async e await. Elas permitem que você escreva código assíncrono de forma que pareça síncrono, sem a necessidade de encadear múltiplos .then().
 
-- * Async: Marca uma função como assíncrona e faz com que ela sempre retorne uma Promise.
-- * Await: Pausa a execução da função assíncrona até que a Promise seja resolvida ou rejeitada.
+- Async: Marca uma função como assíncrona e faz com que ela sempre retorne uma Promise.
+- Await: Pausa a execução da função assíncrona até que a Promise seja resolvida ou rejeitada.
 Exemplo usando async e await:
 
 ```javascript
@@ -99,16 +99,16 @@ A Random User API é uma API gratuita que fornece dados aleatórios sobre usuár
 Essa API é útil para criar cenários realistas, simulando o uso de dados de usuários sem a necessidade de ter uma base de dados real. Como os dados são gerados dinamicamente, você sempre obtém novos perfis ao fazer chamadas à API.
 
 #### Funcionamento dos códigos
-- * HTML: Um botão para carregar os usuários e uma área para exibir os resultados.
-- * CSS: Estilos simples para deixar os cartões de usuário mais organizados.
-- * JavaScript: A função loadUsers usa fetch para obter dados da API https://randomuser.me.
+- HTML: Um botão para carregar os usuários e uma área para exibir os resultados.
+- CSS: Estilos simples para deixar os cartões de usuário mais organizados.
+- JavaScript: A função loadUsers usa fetch para obter dados da API https://randomuser.me.
 Quando o botão é clicado, os dados dos usuários são carregados e exibidos na página.
 
 ## Resultado Visual
 A seguir são apresentadas três telas que representam o funcionamento da API. 
-- * A primeira imagem apresenta a tela inicla do site.
-- * A segunda imagem apresenta a tela onde o botão para acionarmos a API está presente.
-- * A terceira imagem representa o site, após os dados serem capturados pelo site
+- A primeira imagem apresenta a tela inicla do site.
+- A segunda imagem apresenta a tela onde o botão para acionarmos a API está presente.
+- A terceira imagem representa o site, após os dados serem capturados pelo site
 
 
 ![Tela Inicial](tela_inicial.png)
