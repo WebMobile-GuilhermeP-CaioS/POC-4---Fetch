@@ -79,5 +79,6 @@ Essa API é útil para criar cenários realistas, simulando o uso de dados de us
 Como Funciona:
 * HTML: Um botão para carregar os usuários e uma área para exibir os resultados.
 * CSS: Estilos simples para deixar os cartões de usuário mais organizados.
-* JavaScript: A função loadUsers usa fetch para obter dados da API https://randomuser.me. Quando o botão é clicado, os dados dos usuários são carregados e exibidos na página.
+* JavaScript: A função loadUsers usa fetch para obter dados da API https://randomuser.me.
+Quando o botão é clicado, os dados dos usuários são carregados e exibidos na página.
 
