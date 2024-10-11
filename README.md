@@ -10,7 +10,7 @@
    * [Promises](#promises)
    * [Async/Await](#asyncawait)
    * [Fetch](#fetch)
-     * [Como o fetch() Funciona](#como-o-fetch-funciona)
+   * [Como o fetch() Funciona](#como-o-fetch-funciona)
 7. [Usando o Método Fetch + API Random User](#usando-o-método-fetch--api-random-user)
    * [API Random User](#api-random-user)
    * [Como Funciona](#como-funciona)
