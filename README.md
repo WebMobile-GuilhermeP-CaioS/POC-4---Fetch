@@ -23,5 +23,26 @@ Exemplo de POC:
   executado enquanto a operação assíncrona está em andamento.
 
 ### Promise: 
+O conceito de Promises (promessas) é uma das principais formas de lidar com operações assíncronas. Uma promise representa um valor que pode estar disponível agora, no futuro, ou nunca. Uma promessa pode estar em três estados:
+
+*Pending (Pendente): A operação ainda não foi concluída.
+*Fulfilled (Concluída): A operação foi concluída com sucesso e o resultado está disponível.
+*Rejected (Rejeitada): Ocorreu um erro durante a operação.
+
+'''
+let promessa = new Promise((resolve, reject) => {
+    let sucesso = true;
+
+    if (sucesso) {
+        resolve("A operação foi bem-sucedida.");
+    } else {
+        reject("Ocorreu um erro.");
+    }
+});
+
+promessa
+    .then((resultado) => console.log(resultado))  // Caso a operação tenha sucesso
+    .catch((erro) => console.log(erro));          // Caso ocorra um erro
+'''
 
 ### Async/Await:
