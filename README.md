@@ -84,6 +84,6 @@ Quando o botão é clicado, os dados dos usuários são carregados e exibidos na
 
 ![Tela Inicial](tela_inicial.png)
 
-![Tela com o botão para capturar os dados dos usuários](.png)
+![Tela com o botão para capturar os dados dos usuários](botao_html.png)
 
 ![Tela após clicar o botão](dados_capturados.png)
