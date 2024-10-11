@@ -42,7 +42,7 @@ UX aprimorada: Não travar a interface do usuário durante operações demoradas
 #### Desafios do código assíncrono:
 Gerenciamento de Erros: O código assíncrono pode ser difícil de debugar e tratar erros. Embora Promises e async/await facilitem, o controle de fluxos complexos com várias chamadas assíncronas pode ser complicado.
 
-### Promise: 
+#### Promise: 
 O conceito de Promises (promessas) é uma das principais formas de lidar com operações assíncronas. Uma promise representa um valor que pode estar disponível agora, no futuro, ou nunca. Uma promessa pode estar em três estados:
 * Pending (Pendente): A operação ainda não foi concluída.
 * Fulfilled (Concluída): A operação foi concluída com sucesso e o resultado está disponível.
@@ -64,7 +64,7 @@ promessa
     .catch((erro) => console.log(erro));          // Caso ocorra um erro
 ```
 
-### Async/Await:
+#### Async/Await:
 A partir do ECMAScript 2017 (ES8), foi introduzida uma forma ainda mais fácil e legível de lidar com código assíncrono através do uso das palavras-chave async e await. Elas permitem que você escreva código assíncrono de forma que pareça síncrono, sem a necessidade de encadear múltiplos .then().
 
 * Async: Marca uma função como assíncrona e faz com que ela sempre retorne uma Promise.
@@ -83,7 +83,7 @@ async function exemploAssincrono() {
 exemploAssincrono();
 ```
 
-### Fetch
+#### Fetch
 O método fetch() do JavaScript é uma API nativa que facilita o envio de requisições HTTP (como GET, POST, PUT, DELETE) para servidores e a obtenção de respostas de forma assíncrona. Ele substitui o antigo XMLHttpRequest e oferece uma maneira mais simples e moderna de realizar chamadas de rede.
 #### Como o fetch() funciona?
 O método fetch() retorna uma Promise, que será resolvida quando a resposta do servidor estiver disponível. Se a requisição for bem-sucedida, a Promise será resolvida com um objeto Response, que contém os dados retornados pela requisição. Caso haja um erro, a Promise será rejeitada.
