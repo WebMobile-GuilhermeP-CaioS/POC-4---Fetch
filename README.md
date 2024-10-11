@@ -82,3 +82,8 @@ Como Funciona:
 * JavaScript: A função loadUsers usa fetch para obter dados da API https://randomuser.me.
 Quando o botão é clicado, os dados dos usuários são carregados e exibidos na página.
 
+![Tela Inicial](tela_inicial.png)
+
+![Tela com o botão para capturar os dados dos usuários](.png)
+
+![Tela após clicar o botão](dados_capturados.png)
