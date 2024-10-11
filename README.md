@@ -36,18 +36,18 @@ Exemplo de POC:
 Chamadas assíncronas em JavaScript permitem que operações sejam executadas de forma concorrente, sem bloquear o fluxo principal da aplicação. Isso é útil em operações que podem demorar para ser concluídas, como requisições de rede ou consultas de banco de dados. O JavaScript permite que o restante do código seja executado enquanto a operação assíncrona está em andamento.
 
 ### Vantagens do Código Assíncrono:
-- Performance Melhorada:** O código assíncrono permite que outras operações sejam realizadas enquanto a resposta é aguardada, melhorando o desempenho.
-- UX Aprimorada:** A interface do usuário não trava durante operações demoradas, proporcionando uma experiência mais fluida.
+- Performance Melhorada: O código assíncrono permite que outras operações sejam realizadas enquanto a resposta é aguardada, melhorando o desempenho.
+- UX Aprimorada: A interface do usuário não trava durante operações demoradas, proporcionando uma experiência mais fluida.
 
 ### Desafios do Código Assíncrono:
-- Gerenciamento de Erros:** Pode ser difícil de debugar e tratar erros, especialmente em fluxos complexos.
+- Gerenciamento de Erros: Pode ser difícil de debugar e tratar erros, especialmente em fluxos complexos.
 
 ### Promises
 
 O conceito de `Promises` é uma das principais formas de lidar com operações assíncronas. Uma `Promise` pode estar em três estados:
-- Pending (Pendente):** A operação ainda não foi concluída.
-- Fulfilled (Concluída):** A operação foi concluída com sucesso.
-- Rejected (Rejeitada):** Ocorreu um erro durante a operação.
+- Pending (Pendente): A operação ainda não foi concluída.
+- Fulfilled (Concluída): A operação foi concluída com sucesso.
+- Rejected (Rejeitada): Ocorreu um erro durante a operação.
 
 Exemplo de código usando `Promise`:
 
