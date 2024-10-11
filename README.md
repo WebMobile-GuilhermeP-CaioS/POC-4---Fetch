@@ -29,7 +29,8 @@ O conceito de Promises (promessas) é uma das principais formas de lidar com ope
 *Fulfilled (Concluída): A operação foi concluída com sucesso e o resultado está disponível.
 *Rejected (Rejeitada): Ocorreu um erro durante a operação.
 
-"""let promessa = new Promise((resolve, reject) => {
+```javascript
+let promessa = new Promise((resolve, reject) => {
     let sucesso = true;
 
     if (sucesso) {
@@ -41,6 +42,4 @@ O conceito de Promises (promessas) é uma das principais formas de lidar com ope
 
 promessa
     .then((resultado) => console.log(resultado))  // Caso a operação tenha sucesso
-    .catch((erro) => console.log(erro));          // Caso ocorra um erro"""
-
-### Async/Await:
+    .catch((erro) => console.log(erro));          // Caso ocorra um erro
