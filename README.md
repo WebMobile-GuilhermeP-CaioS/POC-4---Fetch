@@ -40,7 +40,7 @@ Chamadas assíncronas em JavaScript permitem que operações sejam executadas de
 - UX Aprimorada:** A interface do usuário não trava durante operações demoradas, proporcionando uma experiência mais fluida.
 
 ### Desafios do Código Assíncrono:
-- * Gerenciamento de Erros:** Pode ser difícil de debugar e tratar erros, especialmente em fluxos complexos.
+- Gerenciamento de Erros:** Pode ser difícil de debugar e tratar erros, especialmente em fluxos complexos.
 
 ### Promises
 
