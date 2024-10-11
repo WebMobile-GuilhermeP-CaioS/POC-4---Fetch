@@ -27,9 +27,7 @@ Exemplo de POC:
 O conceito de Promises (promessas) é uma das principais formas de lidar com operações assíncronas. Uma promise representa um valor que pode estar disponível agora, no futuro, ou nunca. Uma promessa pode estar em três estados:
 
 *Pending (Pendente): A operação ainda não foi concluída.
-
 *Fulfilled (Concluída): A operação foi concluída com sucesso e o resultado está disponível.
-
 *Rejected (Rejeitada): Ocorreu um erro durante a operação.
 
 ```javascript
