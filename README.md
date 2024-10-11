@@ -17,3 +17,9 @@
 
   Exemplo de POC:
   * https://github.com/phcacique/webmobile2024/tree/main/poc4_api
+
+## Chamada assíncrona
+
+  Chamadas assíncronas em JavaScript permitem que operações sejam executadas de forma concorrente, sem bloquear o fluxo principal da aplicação. Isso é particularmente útil em situações onde uma operação pode demorar para ser
+  concluída, como operações de I/O (entrada/saída), requisições de rede, ou consultas de banco de dados. Em vez de esperar que a operação seja concluída antes de continuar, JavaScript permite que o restante do código seja
+  executado enquanto a operação assíncrona está em andamento.
