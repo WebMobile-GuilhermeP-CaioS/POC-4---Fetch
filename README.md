@@ -1,6 +1,6 @@
 # POC-4---Fetch
 
-# Sumário
+## Sumário
 
 1. [Alunos](#alunos)
 2. [Enunciado](#enunciado)
@@ -11,42 +11,45 @@
    * [Async/Await](#asyncawait)
    * [Fetch](#fetch)
    * [Como o fetch() Funciona](#como-o-fetch-funciona)
-7. [Usando o Método Fetch + API Random User](#usando-o-método-fetch--api-random-user)
+4. [Usando o Método Fetch + API Random User](#usando-o-método-fetch--api-random-user)
    * [API Random User](#api-random-user)
-   * [Funcionamento de cada código](#funcionamento-dos-código)
-8. [Resultado Visual](#resultado-visual)
-
+   * [Funcionamento dos Códigos](#funcionamento-dos-códigos)
+5. [Resultado Visual](#resultado-visual)
 
 ## Alunos:
-* Caio Sampaio. RA: 10381053;
-* Guilherme Picoli. RA: 10389843;
-* Caio Filardi. RA: 10341128;
+* Caio Sampaio. RA: 10381053
+* Guilherme Picoli. RA: 10389843
+* Caio Filardi. RA: 10341128
 
 ## Enunciado:
-Criar uma POC que mostre o funcionamento do método assíncrono fetch, no javascript.
-Para isso, consulte o material de aula:
-* https://bragafilho.craft.me/async
-Busque uma API que seja simples o suficiente para a POC. Como sugestão de APIs, acesse:
-* https://github.com/public-apis/public-apis
+Criar uma POC que mostre o funcionamento do método assíncrono `fetch` no JavaScript. Para isso, consulte o material de aula:
+* [Material de Aula](https://bragafilho.craft.me/async)
+
+Sugestões de APIs:
+* [APIs Públicas](https://github.com/public-apis/public-apis)
+
 Exemplo de POC:
-* https://github.com/phcacique/webmobile2024/tree/main/poc4_api
+* [Exemplo de POC](https://github.com/phcacique/webmobile2024/tree/main/poc4_api)
 
-## Chamadas assíncrona
-Chamadas assíncronas em JavaScript permitem que operações sejam executadas de forma concorrente, sem bloquear o fluxo principal da aplicação. Isso é particularmente útil em situações onde uma operação pode demorar para ser
-concluída, como operações de I/O (entrada/saída), requisições de rede, ou consultas de banco de dados. Em vez de esperar que a operação seja concluída antes de continuar, JavaScript permite que o restante do código seja
-executado enquanto a operação assíncrona está em andamento.
+## Chamadas Assíncronas
 
-#### Vantagens do código assíncrono:
-Performance melhorada: O código assíncrono permite que outras operações sejam realizadas enquanto o código aguarda por uma resposta, o que melhora o desempenho, especialmente em aplicações web.
-UX aprimorada: Não travar a interface do usuário durante operações demoradas, proporcionando uma experiência mais fluida.
-#### Desafios do código assíncrono:
-Gerenciamento de Erros: O código assíncrono pode ser difícil de debugar e tratar erros. Embora Promises e async/await facilitem, o controle de fluxos complexos com várias chamadas assíncronas pode ser complicado.
+Chamadas assíncronas em JavaScript permitem que operações sejam executadas de forma concorrente, sem bloquear o fluxo principal da aplicação. Isso é útil em operações que podem demorar para ser concluídas, como requisições de rede ou consultas de banco de dados. O JavaScript permite que o restante do código seja executado enquanto a operação assíncrona está em andamento.
 
-### Promise: 
-O conceito de Promises (promessas) é uma das principais formas de lidar com operações assíncronas. Uma promise representa um valor que pode estar disponível agora, no futuro, ou nunca. Uma promessa pode estar em três estados:
-* Pending (Pendente): A operação ainda não foi concluída.
-* Fulfilled (Concluída): A operação foi concluída com sucesso e o resultado está disponível.
-* Rejected (Rejeitada): Ocorreu um erro durante a operação.
+### Vantagens do Código Assíncrono:
+- **Performance Melhorada:** O código assíncrono permite que outras operações sejam realizadas enquanto a resposta é aguardada, melhorando o desempenho.
+- **UX Aprimorada:** A interface do usuário não trava durante operações demoradas, proporcionando uma experiência mais fluida.
+
+### Desafios do Código Assíncrono:
+- **Gerenciamento de Erros:** Pode ser difícil de debugar e tratar erros, especialmente em fluxos complexos.
+
+### Promises
+
+O conceito de `Promises` é uma das principais formas de lidar com operações assíncronas. Uma `Promise` pode estar em três estados:
+- **Pending (Pendente):** A operação ainda não foi concluída.
+- **Fulfilled (Concluída):** A operação foi concluída com sucesso.
+- **Rejected (Rejeitada):** Ocorreu um erro durante a operação.
+
+Exemplo de código usando `Promise`:
 
 ```javascript
 let promessa = new Promise((resolve, reject) => {
