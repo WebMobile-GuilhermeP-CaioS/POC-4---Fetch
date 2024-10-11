@@ -68,7 +68,7 @@ promessa
 ```
 
 ### Async/Await:
-A partir do ECMAScript 2017 (ES8), foi introduzida uma forma ainda mais fácil e legível de lidar com código assíncrono através do uso das palavras-chave async e await. Elas permitem que você escreva código assíncrono de forma que pareça síncrono, sem a necessidade de encadear múltiplos .then().
+A partir do ECMAScript 2017 (ES8), foi introduzida uma forma ainda mais fácil e legível de lidar com código assíncrono através do uso das palavras-chave `async` e `await`. Elas permitem que você escreva código assíncrono de forma que pareça síncrono, sem a necessidade de encadear múltiplos .then().
 
 - Async: Marca uma função como assíncrona e faz com que ela sempre retorne uma Promise.
 - Await: Pausa a execução da função assíncrona até que a Promise seja resolvida ou rejeitada.
@@ -87,10 +87,10 @@ exemploAssincrono();
 ```
 
 ### Fetch
-O método fetch() do JavaScript é uma API nativa que facilita o envio de requisições HTTP (como GET, POST, PUT, DELETE) para servidores e a obtenção de respostas de forma assíncrona. Ele substitui o antigo XMLHttpRequest e oferece uma maneira mais simples e moderna de realizar chamadas de rede.
+O método `fetch()` do JavaScript é uma API nativa que facilita o envio de requisições HTTP (como GET, POST, PUT, DELETE) para servidores e a obtenção de respostas de forma assíncrona. Ele substitui o antigo XMLHttpRequest e oferece uma maneira mais simples e moderna de realizar chamadas de rede.
 
 #### Como o fetch() funciona?
-O método fetch() retorna uma Promise, que será resolvida quando a resposta do servidor estiver disponível. Se a requisição for bem-sucedida, a Promise será resolvida com um objeto Response, que contém os dados retornados pela requisição. Caso haja um erro, a Promise será rejeitada.
+O método `fetch()` retorna uma Promise, que será resolvida quando a resposta do servidor estiver disponível. Se a requisição for bem-sucedida, a Promise será resolvida com um objeto Response, que contém os dados retornados pela requisição. Caso haja um erro, a Promise será rejeitada.
 
 ## Usando o método fecth + APi Random User
 
