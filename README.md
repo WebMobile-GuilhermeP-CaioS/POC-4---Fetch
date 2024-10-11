@@ -75,8 +75,7 @@ O método fetch() retorna uma Promise, que será resolvida quando a resposta do 
 #### API Random User
 A Random User API é uma API gratuita que fornece dados aleatórios sobre usuários fictícios. Ela é amplamente utilizada em projetos de desenvolvimento para testar funcionalidades que envolvem a exibição de informações de perfil de usuários, como nome, foto, email, localização, entre outros dados comuns.
 Essa API é útil para criar cenários realistas, simulando o uso de dados de usuários sem a necessidade de ter uma base de dados real. Como os dados são gerados dinamicamente, você sempre obtém novos perfis ao fazer chamadas à API.
-
-Como Funciona:
+#### Como funciona
 * HTML: Um botão para carregar os usuários e uma área para exibir os resultados.
 * CSS: Estilos simples para deixar os cartões de usuário mais organizados.
 * JavaScript: A função loadUsers usa fetch para obter dados da API https://randomuser.me.
@@ -87,6 +86,8 @@ A seguir são apresentadas três telas que representam o funcionamento da API.
 * A primeira imagem apresenta a tela inicla do site.
 * A segunda imagem apresenta a tela onde o botão para acionarmos a API está presente.
 * A terceira imagem representa o site, após os dados serem capturados pelo site
+
+
 ![Tela Inicial](tela_inicial.png)
 ![Tela com o botão para capturar os dados dos usuários](botao_html.png)
 ![Tela após clicar o botão](dados_capturados.png)
