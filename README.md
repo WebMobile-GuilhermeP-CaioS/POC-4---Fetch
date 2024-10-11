@@ -44,3 +44,23 @@ let promessa = new Promise((resolve, reject) => {
 promessa
     .then((resultado) => console.log(resultado))  // Caso a operação tenha sucesso
     .catch((erro) => console.log(erro));          // Caso ocorra um erro
+
+### Async/Await:
+
+A partir do ECMAScript 2017 (ES8), foi introduzida uma forma ainda mais fácil e legível de lidar com código assíncrono através do uso das palavras-chave async e await. Elas permitem que você escreva código assíncrono de forma que pareça síncrono, sem a necessidade de encadear múltiplos .then().
+
+* Async: Marca uma função como assíncrona e faz com que ela sempre retorne uma Promise.
+* Await: Pausa a execução da função assíncrona até que a Promise seja resolvida ou rejeitada.
+Exemplo usando async e await:
+'''javascript
+async function exemploAssincrono() {
+    try {
+        let resultado = await promessa;  // Espera a promessa ser resolvida
+        console.log(resultado);
+    } catch (erro) {
+        console.log(erro);  // Trata o erro se a promessa for rejeitada
+    }
+}
+
+exemploAssincrono();
+
