@@ -19,6 +19,12 @@ Chamadas assíncronas em JavaScript permitem que operações sejam executadas de
 concluída, como operações de I/O (entrada/saída), requisições de rede, ou consultas de banco de dados. Em vez de esperar que a operação seja concluída antes de continuar, JavaScript permite que o restante do código seja
 executado enquanto a operação assíncrona está em andamento.
 
+#### Vantagens do código assíncrono:
+Performance melhorada: O código assíncrono permite que outras operações sejam realizadas enquanto o código aguarda por uma resposta, o que melhora o desempenho, especialmente em aplicações web.
+UX aprimorada: Não travar a interface do usuário durante operações demoradas, proporcionando uma experiência mais fluida.
+#### Desafios do código assíncrono:
+Gerenciamento de Erros: O código assíncrono pode ser difícil de debugar e tratar erros. Embora Promises e async/await facilitem, o controle de fluxos complexos com várias chamadas assíncronas pode ser complicado.
+
 ### Promise: 
 O conceito de Promises (promessas) é uma das principais formas de lidar com operações assíncronas. Uma promise representa um valor que pode estar disponível agora, no futuro, ou nunca. Uma promessa pode estar em três estados:
 * Pending (Pendente): A operação ainda não foi concluída.
@@ -64,8 +70,4 @@ exemploAssincrono();
 O método fetch() do JavaScript é uma API nativa que facilita o envio de requisições HTTP (como GET, POST, PUT, DELETE) para servidores e a obtenção de respostas de forma assíncrona. Ele substitui o antigo XMLHttpRequest e oferece uma maneira mais simples e moderna de realizar chamadas de rede.
 #### Como o fetch() funciona?
 O método fetch() retorna uma Promise, que será resolvida quando a resposta do servidor estiver disponível. Se a requisição for bem-sucedida, a Promise será resolvida com um objeto Response, que contém os dados retornados pela requisição. Caso haja um erro, a Promise será rejeitada.
-#### Vantagens do código assíncrono:
-Performance melhorada: O código assíncrono permite que outras operações sejam realizadas enquanto o código aguarda por uma resposta, o que melhora o desempenho, especialmente em aplicações web.
-UX aprimorada: Não travar a interface do usuário durante operações demoradas, proporcionando uma experiência mais fluida.
-#### Desafios do código assíncrono:
-Gerenciamento de Erros: O código assíncrono pode ser difícil de debugar e tratar erros. Embora Promises e async/await facilitem, o controle de fluxos complexos com várias chamadas assíncronas pode ser complicado.
+
