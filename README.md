@@ -6,9 +6,7 @@
 * Caio Filardi. RA: 10341128;
 
 ## Enunciado:
-
 Criar uma POC que mostre o funcionamento do método assíncrono fetch, no javascript.
-  
 Para isso, consulte o material de aula:
 * https://bragafilho.craft.me/async
 Busque uma API que seja simples o suficiente para a POC. Como sugestão de APIs, acesse:
@@ -17,15 +15,12 @@ Exemplo de POC:
 * https://github.com/phcacique/webmobile2024/tree/main/poc4_api
 
 ## Chamadas assíncrona
-
-  Chamadas assíncronas em JavaScript permitem que operações sejam executadas de forma concorrente, sem bloquear o fluxo principal da aplicação. Isso é particularmente útil em situações onde uma operação pode demorar para ser
-  concluída, como operações de I/O (entrada/saída), requisições de rede, ou consultas de banco de dados. Em vez de esperar que a operação seja concluída antes de continuar, JavaScript permite que o restante do código seja
-  executado enquanto a operação assíncrona está em andamento.
+Chamadas assíncronas em JavaScript permitem que operações sejam executadas de forma concorrente, sem bloquear o fluxo principal da aplicação. Isso é particularmente útil em situações onde uma operação pode demorar para ser
+concluída, como operações de I/O (entrada/saída), requisições de rede, ou consultas de banco de dados. Em vez de esperar que a operação seja concluída antes de continuar, JavaScript permite que o restante do código seja
+executado enquanto a operação assíncrona está em andamento.
 
 ### Promise: 
-
 O conceito de Promises (promessas) é uma das principais formas de lidar com operações assíncronas. Uma promise representa um valor que pode estar disponível agora, no futuro, ou nunca. Uma promessa pode estar em três estados:
-
 * Pending (Pendente): A operação ainda não foi concluída.
 * Fulfilled (Concluída): A operação foi concluída com sucesso e o resultado está disponível.
 * Rejected (Rejeitada): Ocorreu um erro durante a operação.
@@ -47,7 +42,6 @@ promessa
 ```
 
 ### Async/Await:
-
 A partir do ECMAScript 2017 (ES8), foi introduzida uma forma ainda mais fácil e legível de lidar com código assíncrono através do uso das palavras-chave async e await. Elas permitem que você escreva código assíncrono de forma que pareça síncrono, sem a necessidade de encadear múltiplos .then().
 
 * Async: Marca uma função como assíncrona e faz com que ela sempre retorne uma Promise.
@@ -67,8 +61,6 @@ exemploAssincrono();
 ```
 
 ### Fetch
-
 O método fetch() do JavaScript é uma API nativa que facilita o envio de requisições HTTP (como GET, POST, PUT, DELETE) para servidores e a obtenção de respostas de forma assíncrona. Ele substitui o antigo XMLHttpRequest e oferece uma maneira mais simples e moderna de realizar chamadas de rede.
-
 #### Como o fetch() funciona?
 O método fetch() retorna uma Promise, que será resolvida quando a resposta do servidor estiver disponível. Se a requisição for bem-sucedida, a Promise será resolvida com um objeto Response, que contém os dados retornados pela requisição. Caso haja um erro, a Promise será rejeitada.
