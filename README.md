@@ -1,5 +1,22 @@
 # POC-4---Fetch
 
+# Sumário
+
+1. [Alunos](#alunos)
+2. [Enunciado](#enunciado)
+3. [Chamadas Assíncronas](#chamadas-assíncronas)
+   * [Vantagens do Código Assíncrono](#vantagens-do-código-assíncrono)
+   * [Desafios do Código Assíncrono](#desafios-do-código-assíncrono)
+4. [Promises](#promises)
+5. [Async/Await](#asyncawait)
+6. [Fetch](#fetch)
+   * [Como o fetch() Funciona](#como-o-fetch-funciona)
+7. [Usando o Método Fetch + API Random User](#usando-o-método-fetch--api-random-user)
+   * [API Random User](#api-random-user)
+   * [Como Funciona](#como-funciona)
+8. [Resultado Visual](#resultado-visual)
+
+
 ## Alunos:
 * Caio Sampaio. RA: 10381053;
 * Guilherme Picoli. RA: 10389843;
