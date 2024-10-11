@@ -71,3 +71,11 @@ O método fetch() do JavaScript é uma API nativa que facilita o envio de requis
 #### Como o fetch() funciona?
 O método fetch() retorna uma Promise, que será resolvida quando a resposta do servidor estiver disponível. Se a requisição for bem-sucedida, a Promise será resolvida com um objeto Response, que contém os dados retornados pela requisição. Caso haja um erro, a Promise será rejeitada.
 
+## Usando o método fecth + APi Random User
+#### Random User
+A Random User API é uma API gratuita que fornece dados aleatórios sobre usuários fictícios. Ela é amplamente utilizada em projetos de desenvolvimento para testar funcionalidades que envolvem a exibição de informações de perfil de usuários, como nome, foto, email, localização, entre outros dados comuns.
+Essa API é útil para criar cenários realistas, simulando o uso de dados de usuários sem a necessidade de ter uma base de dados real. Como os dados são gerados dinamicamente, você sempre obtém novos perfis ao fazer chamadas à API.
+Como Funciona:
+* HTML: Um botão para carregar os usuários e uma área para exibir os resultados.
+* CSS: Estilos simples para deixar os cartões de usuário mais organizados.
+* JavaScript: A função loadUsers usa fetch para obter dados da API https://randomuser.me. Quando o botão é clicado, os dados dos usuários são carregados e exibidos na página.
